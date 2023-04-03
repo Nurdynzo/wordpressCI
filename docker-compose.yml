@@ -8,7 +8,7 @@ services:
     ports:
       - 80:80
     environment:
-      WORDPRESS_DB_HOST: ci-database.cvcvuciqd08g.us-east-1.rds.amazonaws.com
+      WORDPRESS_DB_HOST: wordpress.cvcvuciqd08g.us-east-1.rds.amazonaws.com
       WORDPRESS_DB_USER: admin
       WORDPRESS_DB_PASSWORD: 7wjVZJ+KvMaMuoMrqfuR++mHRKA
       WORDPRESS_DB_NAME: prod
